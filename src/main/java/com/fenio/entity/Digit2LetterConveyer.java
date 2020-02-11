@@ -60,17 +60,17 @@ public class Digit2LetterConveyer implements BaseConveyer {
      * convey digits to letters
      * @param source: input digits
      * @param conveying: the conveying string which digits to letters
-     * @param dest: convey result
+     * @param target: convey result
      */
-    private void convey(String source, String conveying, List<String> dest) {
+    private void convey(String source, String conveying, List<String> target) {
         if (source.length() == 0) {
-            dest.add(conveying);
+            target.add(conveying);
         } else {
             String digit = source.substring(0, 1);
             String letterTab = this.codeMap.get(digit);
             for (int i = 0; i < letterTab.length(); i++) {
                 String letter = letterTab.substring(i, i + 1);
-                convey(source.substring(1), conveying + letter.trim(), dest);
+                convey(source.substring(1), conveying + letter.trim(), target);
             }
         }
     }
