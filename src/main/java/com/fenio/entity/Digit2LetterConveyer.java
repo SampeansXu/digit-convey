@@ -9,7 +9,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * the convey digit to letter *
+ * the convey digits to letters *
  *
  * @author Administrator
  * @create 2020/2/8 0008
