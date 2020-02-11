@@ -60,7 +60,7 @@ public class Digit2LetterConveyer implements BaseConveyer {
      * convey digits to letters
      * @param source: input digits
      * @param conveying: the conveying string which digits to letters
-     * @param dest: transform result
+     * @param dest: convey result
      */
     private void convey(String source, String conveying, List<String> dest) {
         if (source.length() == 0) {
