@@ -1,7 +1,6 @@
 package com.fenio.entity;
 
 import com.fenio.consist.ResultCode;
-import com.fenio.consist.ConveyerResult;
 import com.fenio.interf.BaseConveyer;
 import com.fenio.utils.NumberInputRegex;
 

@@ -1,6 +1,6 @@
 package com.fenio.interf;
 
-import com.fenio.consist.ConveyerResult;
+import com.fenio.entity.ConveyerResult;
 
 /**
  * Conveyer base class *

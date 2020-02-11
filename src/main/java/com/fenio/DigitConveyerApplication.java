@@ -1,7 +1,7 @@
 package com.fenio;
 
 import com.fenio.consist.ResultCode;
-import com.fenio.consist.ConveyerResult;
+import com.fenio.entity.ConveyerResult;
 import com.fenio.entity.ConveyerFactory;
 import org.springframework.boot.ApplicationArguments;
 import org.springframework.boot.ApplicationRunner;

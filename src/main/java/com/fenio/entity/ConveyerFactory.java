@@ -1,7 +1,6 @@
 package com.fenio.entity;
 
 import com.fenio.consist.ResultCode;
-import com.fenio.consist.ConveyerResult;
 
 /**
  * Conveyer factory *

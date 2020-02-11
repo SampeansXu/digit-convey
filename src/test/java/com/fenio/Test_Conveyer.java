@@ -1,7 +1,7 @@
 package com.fenio;
 
 import com.fenio.consist.ResultCode;
-import com.fenio.consist.ConveyerResult;
+import com.fenio.entity.ConveyerResult;
 import com.fenio.entity.Digit2LetterConveyer;
 import org.junit.Assert;
 import org.junit.Test;

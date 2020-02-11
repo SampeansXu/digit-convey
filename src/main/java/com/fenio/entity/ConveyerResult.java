@@ -1,4 +1,6 @@
-package com.fenio.consist;
+package com.fenio.entity;
+
+import com.fenio.consist.ResultCode;
 
 import java.util.ArrayList;
 import java.util.List;
